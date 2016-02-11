@@ -248,5 +248,10 @@
     <ClInclude Include="..\..\winsecur.h" />
     <ClInclude Include="..\..\winstuff.h" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\putty.mft" />
+    <None Include="..\..\version.rc2" />
+    <None Include="..\..\win_res.rc2" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
 </Project>

@@ -190,5 +190,8 @@
     <ClInclude Include="..\..\winhelp.h" />
     <ClInclude Include="..\..\winstuff.h" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\puttygen.mft" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
 </Project>
